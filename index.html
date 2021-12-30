@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Vikings</title>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Condensed:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/reset.css">
-
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -84,9 +84,10 @@
           </div>
       </div>
         <div class="modal">
-            <span class="close">X</span>
-            <iframe class="video" controls="true" src="https://www.youtube.com/embed/Sagg08DrO5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>  
+            <span class="close"><i class="fas fa-times"></i></span>
+           <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+            <div id="video"></div>
+        </div> 
     </section>  
 
   <script src="js/main.js"></script>
