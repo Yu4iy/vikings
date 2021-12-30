@@ -9,6 +9,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
 </head>
 <body>
     <header class="header">
@@ -40,7 +44,7 @@
     </header>
     <section class="about">
         <div class="container">
-            <h3 class="about__title">
+            <h3 class="title">
               Descrizione
             </h3>
             <div class="about__inner">
@@ -88,8 +92,36 @@
            <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
             <div id="video"></div>
         </div> 
-    </section>  
+    </section>
+    <section class="seasons">
+      <div class="container">
+          <h3 class="title">Tutti Stagioni</h3>
+          <ol class="seasons__inner">
+              <li class="seasons__item" style="background-image: url('images/ser-1.jpg')" >
+                <a class="seasons__link" href="">Guardare</a>
+              </li>
+              <li class="seasons__item" style="background-image: url('images/ser-2.jpg')">
+                <a class="seasons__link" href="">Guardare</a>
+              </li>
+              <li  class="seasons__item" style="background-image: url('images/ser-3.jpg')">
+                <a class="seasons__link"  href="">Guardare</a>
+              </li>
+              <li class="seasons__item" style="background-image: url('images/ser-4.jpg')">
+                <a class="seasons__link" href="">Guardare</a>
+              </li>
+              <li class="seasons__item" style="background-image: url('images/ser-5.jpg')">
+                <a class="seasons__link" href="">Guardare</a>
+              </li>
+              <li class="seasons__item" style="background-image: url('images/ser-6.jpg')" >
+                <a class="seasons__link" href="">Guardare</a>
+              </li>
+              
+          </ol>  
 
+
+        </div>
+    </section>  
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>  
   <script src="js/main.js"></script>
 </body>
 </html>
