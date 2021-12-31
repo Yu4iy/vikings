@@ -40,4 +40,30 @@ function stopVideo() {
 }
 
 
+const swiper = new Swiper('.swiper-container-img', {
+	// Optional parameters
+	direction: 'horizontal',
+	loop: true,
+	
+    
 
+    
+	// Navigation arrows
+	navigation: {
+	  nextEl: '.arrow-right',
+	  prevEl: '.arrow-left',
+	},
+
+    });
+const swiperText = new Swiper('.swiper-container-text', {
+	// Optional parameters
+	direction: 'horizontal',
+	loop: true,
+	effect: 'fade',
+	fadeEffect: {
+	  crossFade: true
+	},
+
+    });
+    swiper.controller.control = swiperText;
+    swiperText.controller.control = swiper;
