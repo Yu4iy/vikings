@@ -65,5 +65,6 @@ const swiperText = new Swiper('.swiper-container-text', {
 	},
 
     });
+//     colegamento tra i slider
     swiper.controller.control = swiperText;
     swiperText.controller.control = swiper;
