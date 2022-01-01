@@ -310,7 +310,7 @@ body{
 	background-image: url('../images/page-bg.png');
 	height: 100vh;
 	background-repeat: no-repeat;
-	background-position: center 3.4375rem;
+	background-position: center center;
 	background-size: cover;
 	position: relative;
 
@@ -334,7 +334,7 @@ body{
 	margin-right: 45px;
 	
 }
-.header-page-info__text{
+.header-page-info__text p{
 	margin-bottom: 25px;
 	
 }
