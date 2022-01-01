@@ -44,7 +44,7 @@ body{
 .nav__list-link {
 	color: aliceblue;
 	text-decoration: none;
-	font-size: 32px;
+	font-size: 2rem;
 	margin-right: 1.5625rem;
 	transition: 0.1s linear;
 	
@@ -269,12 +269,7 @@ body{
 .swiper-container-text{
 	max-width: 350px;
 }
-.img-slider__wrapper{
-}
 
-.img-slider__slide{
-
-}
 .img-slider__img{
 	text-align: center;
 }
@@ -309,19 +304,43 @@ body{
 	background-color: rgb(14, 14, 15);
 	padding: 20px;
 }
-/* 
-.heroes__inner{
-	display: flex;
-	flex-wrap: wrap;
-}
+/* SEASON 1 PAGE  */
 
-.text-slider__wrapper{
+.header-page{
+	background-image: url('../images/page-bg.png');
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center 3.4375rem;
+	background-size: cover;
+	position: relative;
+
 }
-.text-slider__slide{
+.header-page-info{
+	max-width: 1083px;
+	background-color: #0E0E0E;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	padding: 44px 47px 64px 35px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+
 }
-.text-slider__text {
-	max-width: 350px;
-} */
+.header-page-info__season{
+	font-weight: bold;
+	font-size: 96px;
+	line-height: 65px;
+	margin-right: 45px;
+	
+}
+.header-page-info__text{
+	margin-bottom: 25px;
+	
+}
+.header-page-info__season span{
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 42px;
+	display: block;
+}
